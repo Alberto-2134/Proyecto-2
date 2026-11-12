@@ -1,0 +1,54 @@
+﻿@model EcosistemaAcademico.Models.Entidades.DiagnosticoAcademico
+
+<form id="formDiagnostico" asp-action="Guardar" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" />
+    <div class="row g-3">
+        <div class="col-md-6">
+            <label asp-for="EstudianteId" class="form-label">Estudiante</label>
+            <select asp-for="EstudianteId" asp-items="ViewBag.Estudiantes" class="form-select">
+                <option value="">-- Seleccione --</option>
+            </select>
+            <span asp-validation-for="EstudianteId" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="AsignaturaId" class="form-label">Asignatura</label>
+            <select asp-for="AsignaturaId" asp-items="ViewBag.Asignaturas" class="form-select">
+                <option value="">-- Seleccione --</option>
+            </select>
+            <span asp-validation-for="AsignaturaId" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="NivelRiesgo" class="form-label">Nivel de riesgo</label>
+            <select asp-for="NivelRiesgo" class="form-select">
+                <option value="Bajo">Bajo</option>
+                <option value="Medio">Medio</option>
+                <option value="Alto">Alto</option>
+            </select>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="Fecha" class="form-label"></label>
+            <input asp-for="Fecha" type="date" class="form-control" />
+            <span asp-validation-for="Fecha" class="text-danger"></span>
+        </div>
+        <div class="col-12">
+            <label asp-for="Fortalezas" class="form-label"></label>
+            <textarea asp-for="Fortalezas" class="form-control" rows="2"></textarea>
+            <span asp-validation-for="Fortalezas" class="text-danger"></span>
+        </div>
+        <div class="col-12">
+            <label asp-for="Debilidades" class="form-label"></label>
+            <textarea asp-for="Debilidades" class="form-control" rows="2"></textarea>
+            <span asp-validation-for="Debilidades" class="text-danger"></span>
+        </div>
+        <div class="col-12">
+            <label asp-for="Observaciones" class="form-label"></label>
+            <textarea asp-for="Observaciones" class="form-control" rows="2"></textarea>
+            <span asp-validation-for="Observaciones" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="text-end mt-3">
+        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+</form>

@@ -1,0 +1,42 @@
+﻿@model EcosistemaAcademico.Models.LoginViewModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/tema.css" />
+</head>
+<body class="tema">
+    <div class="container d-flex justify-content-center align-items-center" style="min-height:100vh;">
+        <div class="card tarjeta-suave p-4" style="width:380px;">
+            <h4 class="text-center mb-3" style="color:#2f4858;">Ecosistema Académico</h4>
+                @if (TempData["Mensaje"] != null)
+                    {
+                        <div class="alert alert-success">@TempData["Mensaje"]</div>
+                    }
+            <form asp-action="Login" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="mb-3">
+                    <label asp-for="Correo" class="form-label"></label>
+                    <input asp-for="Correo" class="form-control" />
+                    <span asp-validation-for="Correo" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Password" class="form-label"></label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn w-100 text-white" style="background:#3d7a8a;">Entrar</button>
+                <div class="text-center mt-3">
+                    <a asp-action="Register">Crear una cuenta</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

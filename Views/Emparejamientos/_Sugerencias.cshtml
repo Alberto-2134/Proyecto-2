@@ -1,0 +1,38 @@
+﻿@model List<EcosistemaAcademico.Models.CandidatoTutor>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-warning">
+        No hay tutores disponibles para esa asignatura (sin cupo, inactivos o sin asignar en Tutor-Asignatura).
+    </div>
+}
+else
+{
+    <table class="table table-sm align-middle">
+        <thead class="table-light">
+            <tr>
+                <th>#</th><th>Tutor</th><th>Dominio</th><th>Calif.</th>
+                <th>Exp.</th><th>Cupos</th><th>Disponibilidad</th><th>Afinidad</th><th></th>
+            </tr>
+        </thead>
+        <tbody>
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            var c = Model[i];
+            <tr class="@(i == 0 ? "table-success" : "")">
+                <td>@(i + 1)</td>
+                <td>@c.Nombre</td>
+                <td>@c.NivelDominio</td>
+                <td>@c.Calificacion</td>
+                <td>@c.AniosExperiencia años</td>
+                <td>@c.CuposLibres</td>
+                <td>@c.Disponibilidad</td>
+                <td><strong>@c.Puntaje.ToString("0.0")</strong></td>
+                <td>
+                    <button type="button" class="btn btn-sm btn-primary" onclick="asignarTutor(@c.TutorId)">Asignar</button>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}

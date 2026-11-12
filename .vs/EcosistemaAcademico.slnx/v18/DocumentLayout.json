@@ -1,0 +1,1076 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\home\\panelestudiante.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\home\\panelestudiante.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\models\\panelestudianteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:models\\panelestudianteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\administradores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\administradores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\asignaturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\asignaturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\diagnosticos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\diagnosticos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\emparejamientos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\emparejamientos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\recursos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\recursos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\repositorios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\repositorios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\seguimientos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\seguimientos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\tutorasignaturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\tutorasignaturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\tutores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\tutores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\home\\bienvenida.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\home\\bienvenida.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\wwwroot\\css\\tema.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:wwwroot\\css\\tema.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\models\\data\\datosdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:models\\data\\datosdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\account\\accesodenegado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\account\\accesodenegado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\models\\candidatotutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:models\\candidatotutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\seguimientos\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\seguimientos\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\controllers\\seguimientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:controllers\\seguimientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\emparejamientos\\_sugerencias.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\emparejamientos\\_sugerencias.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\controllers\\emparejamientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:controllers\\emparejamientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\emparejamientos\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\emparejamientos\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\controllers\\administradorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:controllers\\administradorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\recursos\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\recursos\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\controllers\\recursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:controllers\\recursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\diagnosticos\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\diagnosticos\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\controllers\\diagnosticoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:controllers\\diagnosticoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\tutorasignaturas\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\tutorasignaturas\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\controllers\\tutorasignaturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:controllers\\tutorasignaturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\repositorios\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\repositorios\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\controllers\\repositorioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:controllers\\repositorioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\estudiantes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\estudiantes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\estudiantes\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\estudiantes\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\administradores\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\administradores\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\tutores\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\tutores\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\controllers\\tutorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:controllers\\tutorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\views\\asignaturas\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:views\\asignaturas\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\controllers\\asignaturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:controllers\\asignaturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\migrations\\20261111014419_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:migrations\\20261111014419_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\models\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:models\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\models\\entidades\\seguimientoacademico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:models\\entidades\\seguimientoacademico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\models\\entidades\\recursoacademico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:models\\entidades\\recursoacademico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\models\\entidades\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:models\\entidades\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\models\\entidades\\emparejamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:models\\entidades\\emparejamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\models\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:models\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\models\\entidades\\diagnosticoacademico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:models\\entidades\\diagnosticoacademico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\models\\entidades\\tutorasignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:models\\entidades\\tutorasignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\models\\entidades\\asignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:models\\entidades\\asignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\models\\entidades\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:models\\entidades\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\models\\entidades\\tutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:models\\entidades\\tutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|c:\\users\\usuario\\desktop\\proyecto 2\\ecosistemaacademico\\ecosistemaacademico\\models\\entidades\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27930543-7F7B-F35A-BF65-94E7470CD81A}|EcosistemaAcademico.csproj|solutionrelative:models\\entidades\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PanelEstudiante.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Home\\PanelEstudiante.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\PanelEstudiante.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Home\\PanelEstudiante.cshtml",
+              "RelativeToolTip": "Views\\Home\\PanelEstudiante.cshtml",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAQwKIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-12T17:55:04.077Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAIcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-12T01:42:21.092Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Emparejamientos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Emparejamientos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Emparejamientos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Emparejamientos\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-12T00:55:34.443Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Diagnosticos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Diagnosticos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Diagnosticos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Diagnosticos\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAD0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-12T00:19:41.259Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T01:31:30.068Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Recursos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Recursos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Recursos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Recursos\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-12T00:40:23.606Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwJ4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T02:25:16.74Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PanelEstudianteViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\PanelEstudianteViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\PanelEstudianteViewModel.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\PanelEstudianteViewModel.cs",
+              "RelativeToolTip": "Models\\PanelEstudianteViewModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA0wB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T13:06:52.338Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Repositorios\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Repositorios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Repositorios\\Index.cshtml",
+              "RelativeToolTip": "Views\\Repositorios\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAD0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T23:40:57.747Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Asignaturas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Asignaturas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Asignaturas\\Index.cshtml",
+              "RelativeToolTip": "Views\\Asignaturas\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T02:46:08.955Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Administradores\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Administradores\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Administradores\\Index.cshtml",
+              "RelativeToolTip": "Views\\Administradores\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T22:36:23.131Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Seguimientos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Seguimientos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Seguimientos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Seguimientos\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-12T01:24:58.683Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\TutorAsignaturas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\TutorAsignaturas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\TutorAsignaturas\\Index.cshtml",
+              "RelativeToolTip": "Views\\TutorAsignaturas\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T23:56:29.863Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Tutores\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tutores\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Tutores\\Index.cshtml",
+              "RelativeToolTip": "Views\\Tutores\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T22:00:08.756Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Bienvenida.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Home\\Bienvenida.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Bienvenida.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Home\\Bienvenida.cshtml",
+              "RelativeToolTip": "Views\\Home\\Bienvenida.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwCkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-12T01:43:20.631Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T01:57:50.367Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T02:19:13.31Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "tema.css",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\wwwroot\\css\\tema.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\tema.css",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\wwwroot\\css\\tema.css",
+              "RelativeToolTip": "wwwroot\\css\\tema.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-12T12:43:38.4Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-12T01:56:23.102Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AccesoDenegado.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Account\\AccesoDenegado.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\AccesoDenegado.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Account\\AccesoDenegado.cshtml",
+              "RelativeToolTip": "Views\\Account\\AccesoDenegado.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-12T01:57:10.808Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DatosDemo.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Data\\DatosDemo.cs",
+              "RelativeDocumentMoniker": "Models\\Data\\DatosDemo.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Data\\DatosDemo.cs",
+              "RelativeToolTip": "Models\\Data\\DatosDemo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T02:13:18.232Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAYwIgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T01:54:54.989Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAywCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T01:51:19.406Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T01:53:54.063Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\DashboardViewModel.cs",
+              "RelativeToolTip": "Models\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T01:37:56.031Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CandidatoTutor.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\CandidatoTutor.cs",
+              "RelativeDocumentMoniker": "Models\\CandidatoTutor.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\CandidatoTutor.cs",
+              "RelativeToolTip": "Models\\CandidatoTutor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T01:06:12.686Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SeguimientosController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\SeguimientosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SeguimientosController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\SeguimientosController.cs",
+              "RelativeToolTip": "Controllers\\SeguimientosController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T01:22:40.95Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Seguimientos\\_Form.cshtml",
+              "RelativeDocumentMoniker": "Views\\Seguimientos\\_Form.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Seguimientos\\_Form.cshtml",
+              "RelativeToolTip": "Views\\Seguimientos\\_Form.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-12T01:23:34.081Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Sugerencias.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Emparejamientos\\_Sugerencias.cshtml",
+              "RelativeDocumentMoniker": "Views\\Emparejamientos\\_Sugerencias.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Emparejamientos\\_Sugerencias.cshtml",
+              "RelativeToolTip": "Views\\Emparejamientos\\_Sugerencias.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-12T01:10:24.887Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Emparejamientos\\_Form.cshtml",
+              "RelativeDocumentMoniker": "Views\\Emparejamientos\\_Form.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Emparejamientos\\_Form.cshtml",
+              "RelativeToolTip": "Views\\Emparejamientos\\_Form.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-12T00:54:20.047Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EmparejamientosController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\EmparejamientosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmparejamientosController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\EmparejamientosController.cs",
+              "RelativeToolTip": "Controllers\\EmparejamientosController.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAYwLkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T00:53:13.684Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AdministradoresController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\AdministradoresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdministradoresController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\AdministradoresController.cs",
+              "RelativeToolTip": "Controllers\\AdministradoresController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T22:22:53.974Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RecursosController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\RecursosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RecursosController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\RecursosController.cs",
+              "RelativeToolTip": "Controllers\\RecursosController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAwwEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T00:38:07.591Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Recursos\\_Form.cshtml",
+              "RelativeDocumentMoniker": "Views\\Recursos\\_Form.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Recursos\\_Form.cshtml",
+              "RelativeToolTip": "Views\\Recursos\\_Form.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAwwD0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-12T00:39:14.751Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Diagnosticos\\_Form.cshtml",
+              "RelativeDocumentMoniker": "Views\\Diagnosticos\\_Form.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Diagnosticos\\_Form.cshtml",
+              "RelativeToolTip": "Views\\Diagnosticos\\_Form.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-12T00:18:37.811Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DiagnosticosController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\DiagnosticosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DiagnosticosController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\DiagnosticosController.cs",
+              "RelativeToolTip": "Controllers\\DiagnosticosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T00:17:21.176Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TutorAsignaturasController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\TutorAsignaturasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TutorAsignaturasController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\TutorAsignaturasController.cs",
+              "RelativeToolTip": "Controllers\\TutorAsignaturasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T23:53:49.88Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\TutorAsignaturas\\_Form.cshtml",
+              "RelativeDocumentMoniker": "Views\\TutorAsignaturas\\_Form.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\TutorAsignaturas\\_Form.cshtml",
+              "RelativeToolTip": "Views\\TutorAsignaturas\\_Form.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwC8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T23:54:54.955Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Repositorios\\_Form.cshtml",
+              "RelativeDocumentMoniker": "Views\\Repositorios\\_Form.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Repositorios\\_Form.cshtml",
+              "RelativeToolTip": "Views\\Repositorios\\_Form.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T23:39:45.304Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RepositoriosController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\RepositoriosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RepositoriosController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\RepositoriosController.cs",
+              "RelativeToolTip": "Controllers\\RepositoriosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T23:38:38.727Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Tutores\\_Form.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tutores\\_Form.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Tutores\\_Form.cshtml",
+              "RelativeToolTip": "Views\\Tutores\\_Form.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T21:59:16.551Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Estudiantes\\_Form.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estudiantes\\_Form.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Estudiantes\\_Form.cshtml",
+              "RelativeToolTip": "Views\\Estudiantes\\_Form.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T02:58:06.845Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Estudiantes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estudiantes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Estudiantes\\Index.cshtml",
+              "RelativeToolTip": "Views\\Estudiantes\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T03:01:01.087Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Administradores\\_Form.cshtml",
+              "RelativeDocumentMoniker": "Views\\Administradores\\_Form.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Administradores\\_Form.cshtml",
+              "RelativeToolTip": "Views\\Administradores\\_Form.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T22:31:39.292Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "TutoresController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\TutoresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TutoresController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\TutoresController.cs",
+              "RelativeToolTip": "Controllers\\TutoresController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T21:57:04.286Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "EstudiantesController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\EstudiantesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EstudiantesController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\EstudiantesController.cs",
+              "RelativeToolTip": "Controllers\\EstudiantesController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T02:56:03.322Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "_Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Asignaturas\\_Form.cshtml",
+              "RelativeDocumentMoniker": "Views\\Asignaturas\\_Form.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Views\\Asignaturas\\_Form.cshtml",
+              "RelativeToolTip": "Views\\Asignaturas\\_Form.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAACwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T02:44:46.523Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AsignaturasController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\AsignaturasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AsignaturasController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Controllers\\AsignaturasController.cs",
+              "RelativeToolTip": "Controllers\\AsignaturasController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T02:43:02.838Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20261111014419_Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Migrations\\20261111014419_Inicial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20261111014419_Inicial.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Migrations\\20261111014419_Inicial.cs",
+              "RelativeToolTip": "Migrations\\20261111014419_Inicial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T01:44:23.49Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-11T01:29:24.267Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Models\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T01:26:51.666Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "SeguimientoAcademico.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\SeguimientoAcademico.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\SeguimientoAcademico.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\SeguimientoAcademico.cs",
+              "RelativeToolTip": "Models\\Entidades\\SeguimientoAcademico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T19:28:51.027Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "RecursoAcademico.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\RecursoAcademico.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\RecursoAcademico.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\RecursoAcademico.cs",
+              "RelativeToolTip": "Models\\Entidades\\RecursoAcademico.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T19:28:29.421Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Repositorio.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\Repositorio.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\Repositorio.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\Repositorio.cs",
+              "RelativeToolTip": "Models\\Entidades\\Repositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T19:28:08.396Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Emparejamiento.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\Emparejamiento.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\Emparejamiento.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\Emparejamiento.cs",
+              "RelativeToolTip": "Models\\Entidades\\Emparejamiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T19:23:35.184Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\Usuario.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\Usuario.cs",
+              "RelativeToolTip": "Models\\Entidades\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T19:14:43.245Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "DiagnosticoAcademico.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\DiagnosticoAcademico.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\DiagnosticoAcademico.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\DiagnosticoAcademico.cs",
+              "RelativeToolTip": "Models\\Entidades\\DiagnosticoAcademico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T19:23:12.382Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "TutorAsignatura.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\TutorAsignatura.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\TutorAsignatura.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\TutorAsignatura.cs",
+              "RelativeToolTip": "Models\\Entidades\\TutorAsignatura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T19:22:42.148Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Asignatura.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\Asignatura.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\Asignatura.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\Asignatura.cs",
+              "RelativeToolTip": "Models\\Entidades\\Asignatura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T19:22:18.223Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Administrador.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\Administrador.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\Administrador.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\Administrador.cs",
+              "RelativeToolTip": "Models\\Entidades\\Administrador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T19:19:59.581Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Tutor.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\Tutor.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\Tutor.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\Tutor.cs",
+              "RelativeToolTip": "Models\\Entidades\\Tutor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T19:19:38.695Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\Estudiante.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Proyecto 2\\EcosistemaAcademico\\EcosistemaAcademico\\Models\\Entidades\\Estudiante.cs",
+              "RelativeToolTip": "Models\\Entidades\\Estudiante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T19:19:27.012Z",
+              "OwnerCaption": "%2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

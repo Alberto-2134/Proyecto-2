@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Bienvenido";
+    var esTutor = User.IsInRole("Tutor");
+}
+
+<div class="hero mb-4">
+    <p class="text-uppercase small mb-1" style="letter-spacing:.12em; opacity:.8;">Ecosistema Académico</p>
+    <h1 class="fw-semibold mb-2">Hola, @User.Identity?.Name</h1>
+    <p class="mb-0" style="max-width:560px; opacity:.9;">
+        Este será tu espacio como @(esTutor ? "tutor" : "estudiante"): tu tutoría, tu progreso y tus recursos de estudio en un solo lugar.
+    </p>
+</div>
+
+<div class="row g-3">
+    <div class="col-md-4">
+        <div class="card tarjeta-suave h-100">
+            <div class="card-body">
+                <div class="fw-semibold">@(esTutor ? "Mis estudiantes" : "Mi tutor")</div>
+                <div class="text-muted small mb-2">@(esTutor ? "Los estudiantes que atiendes" : "Quién te acompaña en cada asignatura")</div>
+                <span class="badge bg-light text-secondary">Próximamente</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card tarjeta-suave h-100">
+            <div class="card-body">
+                <div class="fw-semibold">Progreso</div>
+                <div class="text-muted small mb-2">Seguimientos y calificaciones</div>
+                <span class="badge bg-light text-secondary">Próximamente</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card tarjeta-suave h-100">
+            <div class="card-body">
+                <div class="fw-semibold">Recursos</div>
+                <div class="text-muted small mb-2">Guías y materiales de tus asignaturas</div>
+                <span class="badge bg-light text-secondary">Próximamente</span>
+            </div>
+        </div>
+    </div>
+</div>

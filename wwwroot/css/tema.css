@@ -1,0 +1,42 @@
+﻿body.tema {
+    background: radial-gradient(circle at 10% 15%, rgba(61, 122, 138, .16) 0, transparent 38%), radial-gradient(circle at 90% 10%, rgba(124, 108, 196, .12) 0, transparent 34%), radial-gradient(circle at 85% 90%, rgba(61, 122, 138, .12) 0, transparent 40%), #f4f8fa;
+    background-attachment: fixed;
+}
+
+.tarjeta-suave {
+    background: rgba(255, 255, 255, .88);
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 4px 18px rgba(47, 72, 88, .09);
+}
+
+.hero {
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    padding: 2.5rem 2rem;
+    border-radius: 1.25rem;
+    background: linear-gradient(135deg, #2f4858 0%, #3d7a8a 100%);
+    box-shadow: 0 10px 30px rgba(47, 72, 88, .2);
+}
+
+    .hero::before, .hero::after {
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, .08);
+    }
+
+    .hero::before {
+        width: 220px;
+        height: 220px;
+        right: -60px;
+        top: -70px;
+    }
+
+    .hero::after {
+        width: 150px;
+        height: 150px;
+        right: 90px;
+        bottom: -80px;
+    }

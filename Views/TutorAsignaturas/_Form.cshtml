@@ -1,0 +1,48 @@
+﻿@model EcosistemaAcademico.Models.Entidades.TutorAsignatura
+
+<form id="formTutorAsignatura" asp-action="Guardar" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" />
+    <div class="row g-3">
+        <div class="col-md-6">
+            <label asp-for="TutorId" class="form-label">Tutor</label>
+            <select asp-for="TutorId" asp-items="ViewBag.Tutores" class="form-select">
+                <option value="">-- Seleccione --</option>
+            </select>
+            <span asp-validation-for="TutorId" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="AsignaturaId" class="form-label">Asignatura</label>
+            <select asp-for="AsignaturaId" asp-items="ViewBag.Asignaturas" class="form-select">
+                <option value="">-- Seleccione --</option>
+            </select>
+            <span asp-validation-for="AsignaturaId" class="text-danger"></span>
+        </div>
+        <div class="col-md-4">
+            <label asp-for="NivelDominio" class="form-label">Nivel de dominio</label>
+            <select asp-for="NivelDominio" class="form-select">
+                <option value="Básico">Básico</option>
+                <option value="Intermedio">Intermedio</option>
+                <option value="Avanzado">Avanzado</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label asp-for="AniosExperiencia" class="form-label">Años de experiencia</label>
+            <input asp-for="AniosExperiencia" class="form-control" />
+            <span asp-validation-for="AniosExperiencia" class="text-danger"></span>
+        </div>
+        <div class="col-md-4">
+            <label asp-for="FechaAsignacion" class="form-label">Fecha de asignación</label>
+            <input asp-for="FechaAsignacion" type="date" class="form-control" />
+            <span asp-validation-for="FechaAsignacion" class="text-danger"></span>
+        </div>
+        <div class="col-12 form-check ms-2">
+            <input asp-for="Estado" class="form-check-input" />
+            <label asp-for="Estado" class="form-check-label">Activa</label>
+        </div>
+    </div>
+    <div class="text-end mt-3">
+        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+</form>

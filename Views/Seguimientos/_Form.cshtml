@@ -1,0 +1,49 @@
+﻿@model EcosistemaAcademico.Models.Entidades.SeguimientoAcademico
+
+<form id="formSeguimiento" asp-action="Guardar" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" />
+    <div class="row g-3">
+        <div class="col-12">
+            <label asp-for="EmparejamientoId" class="form-label">Emparejamiento</label>
+            <select asp-for="EmparejamientoId" asp-items="ViewBag.Emparejamientos" class="form-select">
+                <option value="">-- Seleccione --</option>
+            </select>
+            <span asp-validation-for="EmparejamientoId" class="text-danger"></span>
+        </div>
+        <div class="col-md-4">
+            <label asp-for="Fecha" class="form-label"></label>
+            <input asp-for="Fecha" type="date" class="form-control" />
+            <span asp-validation-for="Fecha" class="text-danger"></span>
+        </div>
+        <div class="col-md-4">
+            <label asp-for="Progreso" class="form-label">Progreso (0 a 100)</label>
+            <input asp-for="Progreso" class="form-control" />
+            <span asp-validation-for="Progreso" class="text-danger"></span>
+        </div>
+        <div class="col-md-4">
+            <label asp-for="ProximaSesion" class="form-label">Próxima sesión</label>
+            <input asp-for="ProximaSesion" type="date" class="form-control" />
+            <span asp-validation-for="ProximaSesion" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="CalificacionAntes" class="form-label">Calificación antes</label>
+            <input asp-for="CalificacionAntes" class="form-control" />
+            <span asp-validation-for="CalificacionAntes" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="CalificacionDespues" class="form-label">Calificación después</label>
+            <input asp-for="CalificacionDespues" class="form-control" />
+            <span asp-validation-for="CalificacionDespues" class="text-danger"></span>
+        </div>
+        <div class="col-12">
+            <label asp-for="Observaciones" class="form-label"></label>
+            <textarea asp-for="Observaciones" class="form-control" rows="2"></textarea>
+            <span asp-validation-for="Observaciones" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="text-end mt-3">
+        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+</form>

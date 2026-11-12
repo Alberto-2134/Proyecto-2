@@ -1,0 +1,59 @@
+﻿@model EcosistemaAcademico.Models.Entidades.Tutor
+
+<form id="formTutor" asp-action="Guardar" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" />
+    <div class="row g-3">
+        <div class="col-md-6">
+            <label asp-for="Nombre" class="form-label"></label>
+            <input asp-for="Nombre" class="form-control" />
+            <span asp-validation-for="Nombre" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="Apellido" class="form-label"></label>
+            <input asp-for="Apellido" class="form-control" />
+            <span asp-validation-for="Apellido" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="Correo" class="form-label"></label>
+            <input asp-for="Correo" class="form-control" />
+            <span asp-validation-for="Correo" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Contraseña</label>
+            <input type="password" name="password" class="form-control" />
+            @if (Model.Id != 0)
+            {
+                <div class="form-text">Déjala vacía para no cambiarla</div>
+            }
+        </div>
+        <div class="col-md-6">
+            <label asp-for="Especialidad" class="form-label"></label>
+            <input asp-for="Especialidad" class="form-control" />
+            <span asp-validation-for="Especialidad" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="Disponibilidad" class="form-label"></label>
+            <input asp-for="Disponibilidad" class="form-control" placeholder="Ej: Lunes y miércoles 2-4 pm" />
+            <span asp-validation-for="Disponibilidad" class="text-danger"></span>
+        </div>
+        <div class="col-md-4">
+            <label asp-for="CalificacionPromedio" class="form-label"></label>
+            <input asp-for="CalificacionPromedio" class="form-control" />
+            <span asp-validation-for="CalificacionPromedio" class="text-danger"></span>
+        </div>
+        <div class="col-md-4">
+            <label asp-for="CapacidadMaxima" class="form-label"></label>
+            <input asp-for="CapacidadMaxima" class="form-control" />
+            <span asp-validation-for="CapacidadMaxima" class="text-danger"></span>
+        </div>
+        <div class="col-md-4 form-check mt-4 ps-5">
+            <input asp-for="Estado" class="form-check-input" />
+            <label asp-for="Estado" class="form-check-label">Activo</label>
+        </div>
+    </div>
+    <div class="text-end mt-3">
+        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+</form>

@@ -1,0 +1,136 @@
+﻿@model EcosistemaAcademico.Models.DashboardViewModel
+@{
+    ViewData["Title"] = "Panel de control";
+    var tarjetas = new[]
+    {
+        (Titulo: "Estudiantes", Valor: Model.TotalEstudiantes.ToString(), Clase: "text-primary"),
+        (Titulo: "Tutores", Valor: Model.TotalTutores.ToString(), Clase: "text-primary"),
+        (Titulo: "En riesgo", Valor: Model.EstudiantesEnRiesgo.ToString(), Clase: "text-danger"),
+        (Titulo: "Emparejamientos activos", Valor: Model.EmparejamientosActivos.ToString(), Clase: "text-success"),
+        (Titulo: "Recursos", Valor: Model.TotalRecursos.ToString(), Clase: "text-primary"),
+        (Titulo: "Mejora promedio", Valor: Model.MejoraPromedio.ToString("+0.0;-0.0;0.0") + " pts", Clase: "text-success")
+    };
+}
+
+<h3 class="mb-4">Panel de control</h3>
+
+<div class="row g-3 mb-4">
+    @foreach (var t in tarjetas)
+    {
+        <div class="col-6 col-md-4 col-xl-2">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <div class="text-muted small">@t.Titulo</div>
+                    <div class="fs-3 fw-semibold @t.Clase">@t.Valor</div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<div class="row g-3 mb-4">
+    <div class="col-md-5">
+        <div class="card border-0 shadow-sm h-100">
+            <div class="card-body">
+                <h6 class="mb-3">Diagnósticos por nivel de riesgo</h6>
+                <canvas id="riesgoChart" style="max-height:260px;"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-7">
+        <div class="card border-0 shadow-sm h-100">
+            <div class="card-body">
+                <h6 class="mb-3">Emparejamientos por estado</h6>
+                <canvas id="empChart" style="max-height:260px;"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row g-3">
+    <div class="col-md-6">
+        <div class="card border-0 shadow-sm h-100">
+            <div class="card-body">
+                <h6 class="mb-3">Estudiantes en riesgo sin tutor</h6>
+                @if (!Model.EstudiantesSinTutor.Any())
+                {
+                    <p class="text-muted mb-0">Todos los estudiantes en riesgo ya tienen tutor.</p>
+                }
+                else
+                {
+                    <ul class="list-group list-group-flush">
+                        @foreach (var e in Model.EstudiantesSinTutor)
+                        {
+                            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                <div>
+                                    <div>@e.Nombre @e.Apellido</div>
+                                    <div class="small text-muted">@e.Carrera &middot; Promedio @e.Promedio</div>
+                                </div>
+                                <a class="btn btn-sm btn-outline-primary" asp-controller="Emparejamientos" asp-action="Index">Emparejar</a>
+                            </li>
+                        }
+                    </ul>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card border-0 shadow-sm h-100">
+            <div class="card-body">
+                <h6 class="mb-3">Carga de tutores</h6>
+                @if (!Model.CargaTutores.Any())
+                {
+                    <p class="text-muted mb-0">Aún no hay tutores registrados.</p>
+                }
+                @foreach (var c in Model.CargaTutores)
+                {
+                    var pct = c.Capacidad > 0 ? (int)Math.Round(100.0 * c.Activos / c.Capacidad) : 0;
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between small">
+                            <span>@c.Nombre</span>
+                            <span>@c.Activos / @c.Capacidad</span>
+                        </div>
+                        <div class="progress" style="height:10px;">
+                            <div class="progress-bar @(pct >= 100 ? "bg-danger" : pct >= 70 ? "bg-warning" : "bg-success")" style="width:@pct%"></div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script>
+    if (typeof Chart !== 'undefined') {
+        new Chart(document.getElementById('riesgoChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Bajo', 'Medio', 'Alto'],
+                datasets: [{
+                    data: [@Model.RiesgoBajo, @Model.RiesgoMedio, @Model.RiesgoAlto],
+                    backgroundColor: ['#6aa84f', '#e6b84c', '#d9534f']
+                }]
+            },
+            options: { plugins: { legend: { position: 'bottom' } } }
+        });
+
+        new Chart(document.getElementById('empChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Pendiente', 'Activo', 'Finalizado', 'Cancelado'],
+                datasets: [{
+                    label: 'Emparejamientos',
+                    data: [@Model.EmpPendientes, @Model.EmpActivos, @Model.EmpFinalizados, @Model.EmpCancelados],
+                    backgroundColor: ['#e6b84c', '#6aa84f', '#6c757d', '#b0b7bd']
+                }]
+            },
+            options: {
+                plugins: { legend: { display: false } },
+                scales: { y: { beginAtZero: true, ticks: { precision: 0 } } }
+            }
+        });
+    }
+</script>
+}

@@ -1,0 +1,164 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFramework = net10.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.EntryPointFilePath = 
+build_property.RootNamespace = EcosistemaAcademico
+build_property.RootNamespace = EcosistemaAcademico
+build_property.ProjectDir = C:\Users\USUARIO\Desktop\Proyecto 2\EcosistemaAcademico\EcosistemaAcademico\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 10.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\USUARIO\Desktop\Proyecto 2\EcosistemaAcademico\EcosistemaAcademico
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Account/AccesoDenegado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc29EZW5lZ2Fkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Administradores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvcmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Administradores/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvcmVzXF9Gb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Asignaturas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpZ25hdHVyYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Asignaturas/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpZ25hdHVyYXNcX0Zvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Diagnosticos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY29zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Diagnosticos/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY29zXF9Gb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Emparejamientos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wYXJlamFtaWVudG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Emparejamientos/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wYXJlamFtaWVudG9zXF9Gb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Emparejamientos/_Sugerencias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wYXJlamFtaWVudG9zXF9TdWdlcmVuY2lhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Estudiantes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Estudiantes/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcX0Zvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Home/Bienvenida.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCaWVudmVuaWRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Home/PanelEstudiante.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYW5lbEVzdHVkaWFudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Recursos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjdXJzb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Recursos/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjdXJzb3NcX0Zvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Repositorios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3NpdG9yaW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Repositorios/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3NpdG9yaW9zXF9Gb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Seguimientos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VndWltaWVudG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Seguimientos/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VndWltaWVudG9zXF9Gb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/TutorAsignaturas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JBc2lnbmF0dXJhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/TutorAsignaturas/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JBc2lnbmF0dXJhc1xfRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Tutores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3Jlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Tutores/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3Jlc1xfRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/Proyecto 2/EcosistemaAcademico/EcosistemaAcademico/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vbqf5zek2f

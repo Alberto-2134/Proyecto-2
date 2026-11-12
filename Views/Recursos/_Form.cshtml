@@ -1,0 +1,62 @@
+﻿@model EcosistemaAcademico.Models.Entidades.RecursoAcademico
+
+<form id="formRecurso" asp-action="Guardar" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" />
+    <div class="row g-3">
+        <div class="col-md-8">
+            <label asp-for="Titulo" class="form-label">Título</label>
+            <input asp-for="Titulo" class="form-control" />
+            <span asp-validation-for="Titulo" class="text-danger"></span>
+        </div>
+        <div class="col-md-4">
+            <label asp-for="Tipo" class="form-label"></label>
+            <select asp-for="Tipo" class="form-select">
+                <option value="PDF">PDF</option>
+                <option value="Video">Video</option>
+                <option value="Guía">Guía</option>
+                <option value="Presentación">Presentación</option>
+                <option value="Enlace">Enlace</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label asp-for="AsignaturaId" class="form-label">Asignatura</label>
+            <select asp-for="AsignaturaId" asp-items="ViewBag.Asignaturas" class="form-select">
+                <option value="">-- Seleccione --</option>
+            </select>
+            <span asp-validation-for="AsignaturaId" class="text-danger"></span>
+        </div>
+        <div class="col-md-4">
+            <label asp-for="RepositorioId" class="form-label">Repositorio</label>
+            <select asp-for="RepositorioId" asp-items="ViewBag.Repositorios" class="form-select">
+                <option value="">-- Seleccione --</option>
+            </select>
+            <span asp-validation-for="RepositorioId" class="text-danger"></span>
+        </div>
+        <div class="col-md-4">
+            <label asp-for="TutorId" class="form-label">Tutor autor</label>
+            <select asp-for="TutorId" asp-items="ViewBag.Tutores" class="form-select">
+                <option value="">-- Seleccione --</option>
+            </select>
+            <span asp-validation-for="TutorId" class="text-danger"></span>
+        </div>
+        <div class="col-md-8">
+            <label asp-for="UrlRuta" class="form-label">Enlace o ruta</label>
+            <input asp-for="UrlRuta" class="form-control" placeholder="https://..." />
+            <span asp-validation-for="UrlRuta" class="text-danger"></span>
+        </div>
+        <div class="col-md-4">
+            <label asp-for="FechaSubida" class="form-label">Fecha de subida</label>
+            <input asp-for="FechaSubida" type="date" class="form-control" />
+            <span asp-validation-for="FechaSubida" class="text-danger"></span>
+        </div>
+        <div class="col-12 form-check ms-2">
+            <input asp-for="Estado" class="form-check-input" />
+            <label asp-for="Estado" class="form-check-label">Disponible</label>
+        </div>
+    </div>
+    <div class="text-end mt-3">
+        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+</form>

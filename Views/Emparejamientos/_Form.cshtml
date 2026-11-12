@@ -1,0 +1,52 @@
+﻿@model EcosistemaAcademico.Models.Entidades.Emparejamiento
+
+<form id="formEmparejamiento" asp-action="Guardar" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" />
+    <div class="row g-3">
+        <div class="col-md-6">
+            <label asp-for="EstudianteId" class="form-label">Estudiante</label>
+            <select asp-for="EstudianteId" asp-items="ViewBag.Estudiantes" class="form-select">
+                <option value="">-- Seleccione --</option>
+            </select>
+            <span asp-validation-for="EstudianteId" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="TutorId" class="form-label">Tutor</label>
+            <select asp-for="TutorId" asp-items="ViewBag.Tutores" class="form-select">
+                <option value="">-- Seleccione --</option>
+            </select>
+            <span asp-validation-for="TutorId" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="AsignaturaId" class="form-label">Asignatura</label>
+            <select asp-for="AsignaturaId" asp-items="ViewBag.Asignaturas" class="form-select">
+                <option value="">-- Seleccione --</option>
+            </select>
+            <span asp-validation-for="AsignaturaId" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="PuntajeAfinidad" class="form-label">Puntaje de afinidad (0 a 100)</label>
+            <input asp-for="PuntajeAfinidad" class="form-control" />
+            <span asp-validation-for="PuntajeAfinidad" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="Fecha" class="form-label"></label>
+            <input asp-for="Fecha" type="date" class="form-control" />
+            <span asp-validation-for="Fecha" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="Estado" class="form-label"></label>
+            <select asp-for="Estado" class="form-select">
+                <option value="Pendiente">Pendiente</option>
+                <option value="Activo">Activo</option>
+                <option value="Finalizado">Finalizado</option>
+                <option value="Cancelado">Cancelado</option>
+            </select>
+        </div>
+    </div>
+    <div class="text-end mt-3">
+        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+</form>

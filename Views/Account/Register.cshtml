@@ -1,0 +1,103 @@
+﻿@model EcosistemaAcademico.Models.RegisterViewModel
+@{ Layout = null; }
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Crear cuenta</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body style="background:#eef2f5;">
+    <div class="container py-4 d-flex justify-content-center">
+        <div class="card shadow-sm p-4" style="width:540px;">
+            <h4 class="text-center mb-3" style="color:#2f4858;">Crear cuenta</h4>
+            <form asp-action="Register" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label asp-for="Nombre" class="form-label"></label>
+                        <input asp-for="Nombre" class="form-control" />
+                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <label asp-for="Apellido" class="form-label"></label>
+                        <input asp-for="Apellido" class="form-control" />
+                        <span asp-validation-for="Apellido" class="text-danger"></span>
+                    </div>
+                    <div class="col-12">
+                        <label asp-for="Correo" class="form-label"></label>
+                        <input asp-for="Correo" class="form-control" />
+                        <span asp-validation-for="Correo" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <label asp-for="Password" class="form-label">Contraseña</label>
+                        <input asp-for="Password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <label asp-for="ConfirmPassword" class="form-label">Confirmar contraseña</label>
+                        <input asp-for="ConfirmPassword" class="form-control" />
+                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                    </div>
+                    <div class="col-12">
+                        <label asp-for="Rol" class="form-label">Quiero registrarme como</label>
+                        <select asp-for="Rol" class="form-select">
+                            <option value="Estudiante">Estudiante</option>
+                            <option value="Tutor">Tutor</option>
+                        </select>
+                        <span asp-validation-for="Rol" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-12" id="datosEstudiante">
+                        <div class="row g-3">
+                            <div class="col-md-5">
+                                <label asp-for="Matricula" class="form-label">Matrícula</label>
+                                <input asp-for="Matricula" class="form-control" />
+                                <span asp-validation-for="Matricula" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-5">
+                                <label asp-for="Carrera" class="form-label"></label>
+                                <input asp-for="Carrera" class="form-control" />
+                                <span asp-validation-for="Carrera" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-2">
+                                <label asp-for="Nivel" class="form-label"></label>
+                                <input asp-for="Nivel" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12" id="datosTutor" style="display:none;">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label asp-for="Especialidad" class="form-label"></label>
+                                <input asp-for="Especialidad" class="form-control" />
+                                <span asp-validation-for="Especialidad" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label asp-for="Disponibilidad" class="form-label"></label>
+                                <input asp-for="Disponibilidad" class="form-control" placeholder="Ej: Lunes y miércoles 2-4 pm" />
+                                <span asp-validation-for="Disponibilidad" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn w-100 text-white mt-4" style="background:#3d7a8a;">Registrarme</button>
+                <div class="text-center mt-3"><a asp-action="Login">Ya tengo cuenta</a></div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const rol = document.getElementById('Rol');
+        function mostrar() {
+            document.getElementById('datosEstudiante').style.display = rol.value === 'Estudiante' ? '' : 'none';
+            document.getElementById('datosTutor').style.display = rol.value === 'Tutor' ? '' : 'none';
+        }
+        rol.addEventListener('change', mostrar);
+        mostrar();
+    </script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+﻿@model EcosistemaAcademico.Models.PanelEstudianteViewModel
+@{
+    ViewData["Title"] = "Mi panel";
+    var tarjetas = new[]
+    {
+        (Titulo: "Promedio", Valor: Model.Promedio.ToString("0.0")),
+        (Titulo: "Tutorías vigentes", Valor: Model.TutoriasVigentes.ToString()),
+        (Titulo: "Recursos para ti", Valor: Model.Recursos.Count.ToString()),
+        (Titulo: "Próxima sesión", Valor: Model.ProximaSesion?.ToString("dd/MM/yyyy") ?? "—")
+    };
+}
+
+@functions {
+    string EtiquetaRiesgo(string r) => r switch
+    {
+        "Alto" => "Necesita refuerzo",
+        "Medio" => "En seguimiento",
+        _ => "Buen nivel"
+    };
+
+    string ClaseRiesgo(string r) => r switch
+    {
+        "Alto" => "bg-warning text-dark",
+        "Medio" => "bg-info text-dark",
+        _ => "bg-success"
+    };
+}
+
+<div class="hero mb-4">
+    <p class="text-uppercase small mb-1" style="letter-spacing:.12em; opacity:.8;">Mi panel</p>
+    <h1 class="fw-semibold mb-2">Hola, @Model.NombreCompleto</h1>
+    <p class="mb-0" style="opacity:.9;">@Model.Carrera &middot; Nivel @Model.Nivel</p>
+</div>
+
+<div class="row g-3 mb-4">
+    @foreach (var t in tarjetas)
+    {
+        <div class="col-6 col-md-3">
+            <div class="card tarjeta-suave h-100">
+                <div class="card-body">
+                    <div class="text-muted small">@t.Titulo</div>
+                    <div class="fs-3 fw-semibold text-primary">@t.Valor</div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<h5 class="mb-3">Mis tutorías</h5>
+@if (!Model.Tutorias.Any())
+{
+    <div class="card tarjeta-suave mb-4">
+        <div class="card-body text-muted">
+            Aún no tienes un tutor asignado. Cuando se te asigne uno, aparecerá aquí con tu progreso.
+        </div>
+    </div>
+}
+else
+{
+    <div class="row g-3 mb-4">
+        @foreach (var t in Model.Tutorias)
+        {
+            <div class="col-md-6">
+                <div class="card tarjeta-suave h-100">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div>
+                                <div class="fw-semibold">@t.Asignatura</div>
+                                <div class="text-muted small">Tutor: @t.Tutor</div>
+                            </div>
+                            <span class="badge @(t.Estado == "Activo" ? "bg-success" : t.Estado == "Pendiente" ? "bg-warning text-dark" : "bg-secondary")">@t.Estado</span>
+                        </div>
+
+                        <div class="progress mt-3" style="height:10px;">
+                            <div class="progress-bar" style="width:@t.Progreso%"></div>
+                        </div>
+                        <div class="d-flex justify-content-between small text-muted mt-1">
+                            <span>Progreso</span><span>@t.Progreso%</span>
+                        </div>
+
+                        @if (t.CalificacionInicial != null && t.CalificacionActual != null)
+                        {
+                            <div class="small mt-2">Calificación: @t.CalificacionInicial &rarr; <strong>@t.CalificacionActual</strong></div>
+                        }
+                        @if (!string.IsNullOrWhiteSpace(t.Disponibilidad))
+                        {
+                            <div class="small text-muted mt-1">Horario del tutor: @t.Disponibilidad</div>
+                        }
+                        @if (t.Estado != "Finalizado" && t.ProximaSesion >= DateTime.Today)
+                        {
+                            <div class="small mt-1">Próxima sesión: <strong>@t.ProximaSesion?.ToString("dd/MM/yyyy")</strong></div>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+<div class="row g-3">
+    <div class="col-md-6">
+        <div class="card tarjeta-suave h-100">
+            <div class="card-body">
+                <h6 class="mb-3">Mis diagnósticos</h6>
+                @if (!Model.Diagnosticos.Any())
+                {
+                    <p class="text-muted mb-0">Todavía no tienes diagnósticos registrados.</p>
+                }
+                else
+                {
+                    <ul class="list-group list-group-flush">
+                        @foreach (var d in Model.Diagnosticos)
+                        {
+                            <li class="list-group-item bg-transparent px-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="fw-semibold">@d.Asignatura?.Nombre</span>
+                                    <span class="badge @ClaseRiesgo(d.NivelRiesgo)">@EtiquetaRiesgo(d.NivelRiesgo)</span>
+                                </div>
+                                <div class="small text-muted">@d.Fecha.ToString("dd/MM/yyyy")</div>
+                                <div class="small mt-1"><strong>Fortalezas:</strong> @d.Fortalezas</div>
+                                <div class="small"><strong>Por mejorar:</strong> @d.Debilidades</div>
+                            </li>
+                        }
+                    </ul>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card tarjeta-suave h-100">
+            <div class="card-body">
+                <h6 class="mb-3">Recursos para ti</h6>
+                @if (!Model.Recursos.Any())
+                {
+                    <p class="text-muted mb-0">Aún no hay recursos para tus asignaturas.</p>
+                }
+                else
+                {
+                    <ul class="list-group list-group-flush">
+                        @foreach (var r in Model.Recursos)
+                        {
+                            <li class="list-group-item bg-transparent px-0 d-flex justify-content-between align-items-center">
+                                <div>
+                                    <div class="fw-semibold">@r.Titulo</div>
+                                    <div class="small text-muted">@r.Tipo &middot; @r.Asignatura?.Nombre</div>
+                                </div>
+                                @if (r.UrlRuta.StartsWith("http"))
+                                {
+                                    <a class="btn btn-sm btn-outline-primary" href="@r.UrlRuta" target="_blank" rel="noopener">Abrir</a>
+                                }
+                                else
+                                {
+                                    <span class="small text-muted">@r.UrlRuta</span>
+                                }
+                            </li>
+                        }
+                    </ul>
+                }
+            </div>
+        </div>
+    </div>
+</div>
